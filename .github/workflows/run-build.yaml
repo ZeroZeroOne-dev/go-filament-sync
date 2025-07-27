@@ -32,10 +32,10 @@ jobs:
         with:
           artifactErrorsFailBuild: true
           removeArtifacts: true
-          allowUpdates: true
+          allowUpdates: false
           generateReleaseNotes: true
-          prerelease: true
-          tag: dev-main
+          prerelease: false
+          tag: 0.9.1
           commit: ${{ env.GITHUB_SHA }}
           name: "latest dev pre-release"
           artifacts: "./release/filament-sync-tool_*"
