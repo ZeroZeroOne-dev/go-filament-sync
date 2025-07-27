@@ -9,6 +9,7 @@ on:
       - 'README.md'
       - 'docker/'
       - 'k2plus-default/'
+  workflow_dispatch:
 
 jobs:
   build:
