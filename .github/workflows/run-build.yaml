@@ -49,9 +49,4 @@ jobs:
           body: |
             pre-release build  
             --------------------------------------  
-            Windows release is detected as a virus.  
-            You can trust me or not but it is not a Virus.  
-
-            Most of the time if the program is not signed, it is flagged in Windows.  
-            You can read more about it here:  
-            https://go.dev/doc/faq#virus
+            Use the base folder for local filament lookup
